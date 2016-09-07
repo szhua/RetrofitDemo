@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="szhua.demo.retrofitdemo.Activity.SecondActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text"
+        android:text="GET"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/getbt"
+        android:text="GET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/content_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示结果"
+        android:textColor="@color/colorAccent"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Post"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="具体的数据\nRequest URL:
+http://139.129.51.233/group1/mm_mall/index.php/Webservice/v100/
+Request Method:POST
+Post Data:key_type=1
+获得的是一个轮播的图片"
+        />
+
+    <Button
+        android:id="@+id/postbt"
+        android:text="POST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/content_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示结果"
+        android:textColor="@color/colorAccent"
+        />
+
+
+</LinearLayout>
